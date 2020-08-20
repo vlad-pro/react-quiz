@@ -1,5 +1,3 @@
-import { type } from 'os'
-import { StyledInterface } from 'styled-components'
 import { shuffleArray } from './utils'
 
 export type Question = {
