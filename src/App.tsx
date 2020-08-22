@@ -5,7 +5,7 @@ import QuestionCard from './components/QuestionCard'
 // Types
 import { QuestionState, Difficulty } from './API'
 
-type AnswerObject = {
+export type AnswerObject = {
   question: string
   answer: string
   correct: boolean
@@ -57,7 +57,16 @@ function App() {
     }
   }
 
-  const nextQuestion = () => {}
+  const nextQuestion = () => {
+    // Move to the next question if not last
+    const nextQuestion = number + 1
+
+    if (nextQuestion === TOTAL_QUESTIONS) {
+      setGameOver(true)
+    } else {
+      setNumber(nextQuestion)
+    }
+  }
 
   return (
     <div className="App">
