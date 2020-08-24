@@ -14,4 +14,23 @@ body{
   display: flex;
   justify-content: center;
 }
+
+* {
+  box-sizing: border-box;
+  font-family: 'Catamaran', san-serif;
+}
+`
+export const Wrapper = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+
+> p {
+  color: #fff;
+}
+
+.score {
+  color: #fff;
+  font-size: 2rem;
+}
 `
