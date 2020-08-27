@@ -1,3 +1,7 @@
+# A basic and an all known quiz app, but this time done in TypeScript
+
+## [Live Demo :rocket:](https://pedantic-bell-49795c.netlify.app)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
